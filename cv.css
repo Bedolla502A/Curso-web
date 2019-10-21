@@ -1,0 +1,85 @@
+body{
+  background: #33CCFF;
+}
+
+.principal{
+   width: 700px;
+   margin: 0 auto;
+   background-color: #009999;
+   border: 1px solid black;
+}
+
+.deportes{
+  display: block; 
+  color: #000080;  
+  font-style: italic;
+  background-color: #5995DA;   
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #3366FF;    
+  border-radius: 35px;
+  width: 200px;
+  margin: auto;
+}
+
+.cines{
+  display: block; 
+  color: #000080;
+  font-style: italic;
+  background-color: #5995DA;   
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #3366FF;   
+  border-radius: 35px;
+  width: 200px;
+  margin: auto;
+}
+
+a:visited:hover{
+  color: #006699;
+  background-color: #00CCFF;
+  border-color: #00CCFF;
+}
+
+a:visited:active{
+  color: red;
+}
+
+p{
+  margin: 10px;
+  margin-top: 30px;
+  color-interpolation: blue;
+  color: black;
+  font-size: 20px;
+  text-orientation: center;
+}
+
+h1{
+  background-color: #109DFA;  
+  font-style: italic;  
+  margin-bottom: 30px;
+}
+
+ul{
+  background-color: #009999;    
+  list-style-type: lower-latin;
+  font-size: 20px;
+}
+
+ol{
+  list-style-type: lower-roman;
+  background-color: #009999; 
+  font-size: 25px;
+  margin: 15px;
+}
+
+/*{
+  margin: auto;
+  padding: 50px;
+  box-sizing: border-box;
+}*/
+
