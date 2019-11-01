@@ -1,0 +1,152 @@
+*{
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body{
+  background: #33CCFF;
+}
+
+.principal{
+  display: flex;
+   width: 900px;
+   margin: 0 auto;
+   background-color: #009999;
+   border: 1px solid black;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid #009999;    
+  border-radius: 35px;
+  text-orientation: center;
+}
+
+.tit{
+  display: flex;   
+  width: 500px;
+  margin: 0 auto;
+  flex-direction: row;
+  background-color: #48bbcf;
+  color: #0a6a73;
+  border: 2px solid #48bbcf; 
+  border-radius: 35px; 
+}
+
+.menu{      /*principal*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color:   #21b5b0 ;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.de{
+  width: 300px;
+  background-color: #009999;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.peli{
+  display: flex;
+  height: 550px;
+  width: 100%;
+  background-color: #009999;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #009999;
+  margin-top: 100px;
+  border-radius: 35px;
+}
+
+.deportes{
+  display: flex; 
+  color: #000080;  
+  font-style: italic;
+  background-color: #5995DA;   
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #3366FF;    
+  border-radius: 35px;
+  width: 200px;
+  margin: auto;
+}
+
+.cines{
+  display: flex; 
+  color: #000080;
+  font-style: italic;
+  background-color: #5995DA;   
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #3366FF;   
+  border-radius: 35px;
+  width: 200px;
+  margin: auto;
+}
+
+a:visited:hover{
+  color: #006699;
+  background-color: #00CCFF;
+  border-color: #00CCFF;
+}
+
+a:visited:active{
+  color: red;
+}
+
+.links{   /*links curriculum y deportes*/
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: #009999;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1{
+  color: black;
+  font-size: 35px;
+  text-orientation: center;
+}
+
+p{
+  display: flex;
+  margin: 10px;
+  margin-top: 30px;
+  color-interpolation: blue;
+  color: black;
+  font-size: 30px;
+  text-orientation: center;
+}
+
+ul{
+  display: flex;
+  background-color: #009999;    
+  list-style-type: lower-latin;
+  font-size: 20px;
+  flex-direction: column;
+}
+
+ol{
+  display: flex;
+  list-style-type: lower-roman;
+  background-color: #009999; 
+  font-size: 25px;
+  flex-direction: column;
+}
+
+
+

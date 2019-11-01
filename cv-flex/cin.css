@@ -1,0 +1,116 @@
+*{
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.menu{      /*principal*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color:   #21b5b0 ;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.tit{     /*titulo*/
+  display: flex;   
+  width: 900px;
+  height: 200px;
+  margin: 0 auto;
+  flex-direction: row;
+  background-color:  #48bbcf;
+  color: #0a6a73;
+}
+
+.cin{   /*titulo pelicula*/
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  background-color:  #ca1572;
+  border-radius: 35px;
+  align-items: center;
+}
+
+.peli{
+  display: flex;
+  height: 550px;
+  width: 100%;
+  background-color: #cf4875 ;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #c21887;
+  margin-top: 100px;
+  border-radius: 35px;
+}
+
+.delante,.atras{
+  display: flex; 
+  color: #000080;  
+  font-style: italic;
+  background-color: #FFC0CB;   
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #FFB6C1;    
+  border-radius: 35px;
+  width: 500px;
+  margin: auto;
+  flex-direction: row;
+}
+
+.links{   /*links curriculum y deportes*/
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color:  #ca1572 ;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a:visited:hover{
+  color: #006699;
+  background-color: #EE82EE;
+  border-color: #DA70D6;
+}
+
+a:visited:active{
+  color: #FF4500;
+  text-decoration-style: arial;
+
+}
+
+p{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  color-interpolation:  #21b5b0 ;
+  color: black;
+  font-size: 20px;
+  font-family: verdana;
+  align-items: center;
+}
+
+h1{
+  display: flex;
+  width: 700px;
+  background-color:  #0eaadc;  
+  font-style: italic;  
+  font-size: 50px;
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
+  list-style-type: upper-roman;
+  background-color:  #21b5b0 ; 
+  font-size: 30px;   
+}
+
+
