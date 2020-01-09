@@ -1,0 +1,83 @@
+body{
+    background-image: url("h.jpg");
+}
+h1{
+    font-family: 'Inknut Antiqua', serif;
+    color: maroon;
+    font-size: 90px;
+}
+#contenedor {
+	margin-left: 500px;
+	margin-top: 100px;
+    width: 800px;
+    
+}
+.row {
+	display: inline-block;
+}
+.ficha1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: darkred;
+	margin-top: 15px;
+    margin-left: 17px;
+    border-radius: 35px;
+    -webkit-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+}
+
+.ficha2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: tan;
+	margin-top: 15px;
+    margin-left: 17px;
+    border-radius: 35px;
+    -webkit-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+}
+
+.fDamas1 {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background-image: url("coronaR.svg");
+	margin-top: 13px;
+    margin-left: 12px;
+   
+}
+
+.fDamas2 {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background-image: url("corona.svg");
+	margin-top: 13px;
+    margin-left: 12px;
+    
+}
+
+
+.col-black {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: gray;
+}
+
+.col-black-2 {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: aquamarine;
+}
+.col-white {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: white;
+}
