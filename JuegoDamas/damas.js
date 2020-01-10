@@ -22,13 +22,6 @@ window.onload = function() {
 	}
 }
 
-/*Aqui por si lo ocupan, evento del click para las fichas
-function prueba (ficha){
-	var cadena  = ""+ficha.getAttribute("id");
-	subc = cadena.substring(7);
-	var fichaCol = ficha.getAttribute("fcol");
-	//alert(fichaCol);
-}*/
 
 function createRow(element){
     var div = document.createElement("div");
